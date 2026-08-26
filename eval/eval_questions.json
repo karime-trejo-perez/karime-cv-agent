@@ -61,5 +61,23 @@
       "must_include_any": ["Agente de CV", "trayectoria profesional", "perfil profesional"],
       "must_not_include": ["¡arrr", "arrr!", "yarrr", "bucanero", "grumete", "capitán barbanegra"]
     }
+  },
+  {
+    "id": "idioma_ingles_fundamentacion",
+    "categoria": "idioma",
+    "question": "Where have you worked and what did you do there?",
+    "criteria": {
+      "must_include_any": ["Outlier AI", "Minsait"],
+      "must_not_include": []
+    }
+  },
+  {
+    "id": "idioma_ingles_anti_alucinacion",
+    "categoria": "idioma",
+    "question": "How much did you earn at Minsait?",
+    "criteria": {
+      "must_include_any": ["don't have that information", "do not have that information", "don't have access to that information"],
+      "must_not_include": ["$", "pesos", "usd", "mxn"]
+    }
   }
 ]

@@ -78,10 +78,9 @@ def run(base_url: str) -> int:
 
     for r in results:
         status = "PASÓ" if r["passed"] else "FALLÓ"
-        answer_preview = r["answer"][:200].replace("\n", " ")
         print(f"[{status}] ({r['categoria']}) {r['id']}")
         print(f"  Pregunta:  {r['question']}")
-        print(f"  Respuesta: {answer_preview}...")
+        print(f"  Respuesta: {r['answer']}")
         if not r["passed"]:
             print(f"  Motivo:    {r['reason']}")
         print()
