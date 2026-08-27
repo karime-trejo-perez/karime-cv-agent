@@ -1,5 +1,13 @@
 # Experiencia Laboral
 
+## Tecnológico de Monterrey — Teaching Assistant, Taller de Circuitos Eléctricos
+**Ubicación:** Ciudad de México, México
+**Fechas:** Agosto 2026 – Presente
+
+- Apoya en laboratorio a estudiantes del taller de Circuitos Eléctricos:
+  ayuda a armar circuitos, supervisa el cumplimiento de normas de
+  seguridad, explica y aclara conceptos teóricos, y califica reportes.
+
 ## Outlier AI — AI Data Annotator / Model Evaluator
 **Ubicación:** Remoto
 **Fechas:** Febrero 2026 – Presente
