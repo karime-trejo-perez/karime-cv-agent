@@ -30,7 +30,7 @@ profesional de Karime Trejo Pérez, a través de un endpoint compatible con
               API de Anthropic (claude-haiku-4-5)
 ```
 
-Cada vez que alguien pregunta algo, el servidor arma un mensaje con: las
+Cada que un usuario hace una pregunta al agente, el servidor arma un mensaje con: las
 reglas de comportamiento del agente, el CV completo, y la pregunta para mandarlo a Claude. La respuesta se guarda para poder continuar la
 conversación si hay preguntas de seguimiento.
 
